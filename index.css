@@ -1,42 +1,15 @@
-
-.box1{
+.box{
     background-color: aqua;
     display: inline-block;
     width: 100px;
     height: 100px;
 
 }
-.box2{
-    background-color: aqua;
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-
-}
-.box3{
-    background-color: aqua;
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-
-}
-.box4{
-    background-color: aqua;
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-
-}
-.box5{
-    background-color: aqua;
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-
-}
-@media only screen and (min-width:320px) and (max-width: 480px) {
+@media screen and (min-width:320px) and (max-width: 480px) {
     .box{
-        flex-direction: column;
+        height: 200px;
+        width: 200px;
+        left: 10%;
     }
     
 }
